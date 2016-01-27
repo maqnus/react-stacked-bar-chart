@@ -1,0 +1,39 @@
+body {
+  font: 10px sans-serif;
+  background-color: #091C50;
+  color: white;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+}
+
+.bar:hover {
+	stroke: #FFF;
+	cursor: pointer;
+}
+
+.x.axis path {
+  display: none;
+}
+
+text {
+	fill: #FFF;
+}
+
+rect {
+	width: 20px;
+}
+
+.trumfvisang {
+  fill: rgb(39, 137, 233);
+}
+.meny {
+  fill: rgb(255, 51, 102);
+}
+.joker {
+  fill: rgb(255, 220, 24);
+}
